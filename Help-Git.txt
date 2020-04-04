@@ -1,0 +1,20 @@
+1)create one folder on any path
+2)open git bash inside this folder
+3)fire below command to take clone of gitRepo.
+git clone https://github.com/kirankamal08/NodeDemoRepo.git
+
+:: on doing so you will see complete repo has been copy of remote repo has been created on locla system
+
+4)Now you can start ur daily activities to move code to remote as and when needed.
+
+5)To add files to git repo give bolow command.
+git add filename1 file2 file3
+
+::add command use----> Actually GIT has staging concept where you can move ur code changes so that they do not molose.
+so you can add all changed files using add command.
+
+6)Now is the time to upload or move changes to remote.Do so by below commnad.
+git commit -m "Done changes for role feature"
+
+7)At last 
+git push 
